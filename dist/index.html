@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Music Player | Audio Player 🎵</title>
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Tracks used in this music/audio player application are free to use. I downloaded them from Soundcloud and NCS websites. I am not the owner of these tracks. -->
+
+<div id="app-cover">
+  <div id="bg-artwork"></div>
+  <div id="bg-layer"></div>
+  <div id="player">
+    <div id="player-track">
+      <div id="album-name"></div>
+      <div id="track-name"></div>
+      <div id="track-time">
+        <div id="current-time"></div>
+        <div id="track-length"></div>
+      </div>
+      <div id="s-area">
+        <div id="ins-time"></div>
+        <div id="s-hover"></div>
+        <div id="seek-bar"></div>
+      </div>
+    </div>
+    <div id="player-content">
+      <div id="album-art">
+        <img src="https://cdn.discordapp.com/attachments/721087276318457897/1146538137804361880/4cd9bd4a1b80932ee2d273535d39684d.jpg" class="active" id="_1">
+        <img src="https://cdn.discordapp.com/attachments/721087276318457897/1146541245586473012/e635fa9a1a539e452aa2b4fbab47de0c.jpg" id="_2">
+        <img src="https://cdn.discordapp.com/attachments/721087276318457897/1146544897042690058/a3f415293be3e8d37b167ebc70f02964.jpg" id="_3">
+        <img src="https://cdn.discordapp.com/attachments/721087276318457897/1146550308454023259/50dd1777913cda2b07a826fd2f112a8f.jpg" id="_4">
+        <img src="https://cdn.discordapp.com/attachments/721087276318457897/1146550313105498142/d7d32e96bbcc18ece0732ceb275b428f.jpg" id="_5">
+        <div id="buffer-box">Buffering ...</div>
+      </div>
+      <div id="player-controls">
+        <div class="control">
+          <div class="button" id="play-previous">
+            <i class="fas fa-backward"></i>
+          </div>
+        </div>
+        <div class="control">
+          <div class="button" id="play-pause-button">
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
+        <div class="control">
+          <div class="button" id="play-next">
+            <i class="fas fa-forward"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
