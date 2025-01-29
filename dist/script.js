@@ -31,7 +31,7 @@ $(function () {
     tFlag = false,
     albums = [
       "lovegod・sarah kinsley",
-      "maud gone・car seat headrest",
+      "maud gone・csh",
       "pagtingin・ben&ben",
       "i know you・faye webster",
       "candy・mk.gee"
