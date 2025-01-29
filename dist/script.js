@@ -30,26 +30,26 @@ $(function () {
     buffInterval = null,
     tFlag = false,
     albums = [
-      "light・wave to earth",
-      "love is the way・tss",
+      "lovegod・sarah kinsley",
+      "maud gone・car seat headrest",
       "pagtingin・ben&ben",
       "i know you・faye webster",
-      "jsyk・tilly birds"
+      "candy・mk.gee"
     ],
     trackNames = [
-      "you always had me",
-      "love is a way of being, baby",
+      "i wake up kissing a vision",
+      "sweetheart, please love me too long",
       "maybe tomorrow youʼll be mine",
       "iʼm here regardless of the pain",
-      "iʼve been missing you all along"
+      "you're the only one i fantasize"
     ],
     albumArtworks = ["_1", "_2", "_3", "_4", "_5"],
     trackUrl = [
       "https://audio.jukehost.co.uk/8CQA22jvnKqqrIACGmLKGwk55C6EtXCZ",
-      "https://audio.jukehost.co.uk/YTF36CTefyAQYuGQcUQ2fXIWe1KTl2uo",
-      "https://audio.jukehost.co.uk/GsvNCZIALsyMiUItQTCBEdnNzsDOSBa6",
-      "https://audio.jukehost.co.uk/yKLEsTT48gEAAxHHSWBw5HXEnCay5dds",
-      "https://audio.jukehost.co.uk/gCXW99jfulaAsVZNiH5v8SkfxNUdoDob"
+      "https://audio.jukehost.co.uk/EVd7AUEq792ImwmpFq20Wgy2pq7T3T2q",
+      "https://audio.jukehost.co.uk/RK0AAEGRdfW4pLFyeushtfNaZhjK2CkU",
+      "https://audio.jukehost.co.uk/RU3rV4at9Vq1E0t4U6iK28PZGxrd5kgM",
+      "https://audio.jukehost.co.uk/J0OqLDQ0uFuIL0L9IWgJY7FkiV0kmz7R"
     ],
     playPreviousTrackButton = $("#play-previous"),
     playNextTrackButton = $("#play-next"),
